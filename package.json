@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AlejandroLilloRodriguez/ejercicio1node.js/issues"
   },
-  "homepage": "https://github.com/AlejandroLilloRodriguez/ejercicio1node.js#readme"
+  "homepage": "https://github.com/AlejandroLilloRodriguez/ejercicio1node.js#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
 }
