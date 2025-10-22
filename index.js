@@ -16,7 +16,7 @@ servidor.listen(port, () => {
   console.log("Versión de Node.js: " + process.version);
 });
 setInterval(() => {
-    console.log("Uso de cpus: " + os.cpus());
+    console.log("Uso de cpus: " + os.cpus().length);
     console.log("Memoria en uso: " + (os.totalmem() - os.freemem()));
     console.log("Tiempo de actividad del sistema: " + os.uptime());
     console.log("Tiempo de uso de node"+ process.uptime());
